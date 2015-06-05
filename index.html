@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Table</title>
+	<link href="bootstrap.min.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="container" style="border:2px solid black">
+		<div class="row bg-linear">
+			<div class="col-xs-12">
+				<div class="header">
+					<p class="flt">Show &nbsp;</p>
+					<select name="" class="flt">
+						<option value="" class="active">10</option>
+						<option value="">20</option>
+						<option value="">30</option>
+						<option value="">40</option>
+					</select>
+					<p class="flt">&nbsp; entries</p>
+					<div class="pull-right">
+						<p class="flt">Search: &nbsp;</p>
+						<input type="text" class="search flt">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+
+
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<thead class="heading-table">
+						<tr style="">
+							<th class="text-center" style="border-top:1px solid #DDDDDD;border-right:1px solid black;border-bottom:2px solid black;border-left:1px solid black">User name</th>
+							<th class="text-center" style="border-top:1px solid #DDDDDD;border-right:1px solid black;border-bottom:2px solid black">Date registered</th>
+							<th class="text-center" style="border-top:1px solid #DDDDDD;border-right:1px solid black;border-bottom:2px solid black">Role</th>
+							<th class="text-center" style="border-top:1px solid #DDDDDD;border-right:1px solid black;border-bottom:2px solid black">Status</th>
+							<th class="text-center" style="border-top:1px solid #DDDDDD;border-bottom:2px solid black">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Bananaman</td>
+							<td>2011/06/01</td>
+							<td>Admin</td>
+							<td>
+								<button type="button" class="btn btn-default btn-xs" style="background-color: #999999; color: white; border: 1px solid #777777;">Inactive</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Batman</td>
+							<td>2011/06/01</td>
+							<td>Admin</td>
+							<td>
+								<button type="button" class="btn btn-default btn-xs" style="background-color: #999999; color: white; border: 1px solid #777777;">Inactive</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Bob the Builder</td>
+							<td>2011/06/01</td>
+							<td>Admin</td>
+							<td>
+								<button type="button" class="btn btn-default btn-xs" style="background-color: #999999; color: white; border: 1px solid #777777;">Inactive</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Catwomen</td>
+							<td>2011/06/01</td>
+							<td>Staff</td>
+							<td>
+								<button type="button" class="btn btn-success btn-xs active">Active</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Fred Flinstone</td>
+							<td>2011/06/01</td>
+							<td>Member</td>
+							<td>
+								<button type="button" class="btn btn-success btn-xs active">Active</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Garfield</td>
+							<td>2011/06/01</td>
+							<td>Staff</td>
+							<td>
+								<button type="button" class="btn btn-danger btn-xs active">Banned</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Hulk</td>
+							<td>2011/06/01</td>
+							<td>Staff</td>
+							<td>
+								<button type="button" class="btn btn-danger btn-xs active">Banned</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>MacAndCheese</td>
+							<td>2011/06/01</td>
+							<td>Member</td>
+							<td>
+								<button type="button" class="btn btn-warning btn-xs active">Pending</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Paul</td>
+							<td>2011/06/01</td>
+							<td>Member</td>
+							<td>
+								<button type="button" class="btn btn-warning btn-xs active">Pending</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+						<tr>
+							<td>Ratamatat</td>
+							<td>2011/06/01</td>
+							<td>Staff</td>
+							<td>
+								<button type="button" class="btn btn-success btn-xs active">Active</button>
+							</td>
+							<td>
+								<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-zoom-in"></span>View</button>
+								<button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-edit"></span>Edit</button>
+								<button type="button" class="btn btn-danger btn-sm"><span class="glyphicon glyphicon-trash"></span>Delete</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
